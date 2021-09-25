@@ -56,7 +56,7 @@ export interface Device<TState = {}, TAttributes = {}, TNora = {}> {
             msg: string;
             details?: any;
         };
-        asyncCommandExecution?: boolean;
+        asyncCommandExecution?: boolean | string[];
         commands?: {
             [commandId: string]: AsyncCommand;
         };
@@ -503,7 +503,10 @@ export type ChannelDevice = Device<{}, {
     pendingChannelChangeCommand?: {
         command: 'SelectChannel';
         channelCode: string;
-        channelName: string;
+        channelName?: string;
+        channelNumber?: string;
+    } | {
+        command: 'SelectChannel';
         channelNumber: string;
     } | {
         command: 'RelativeChannel';
@@ -739,6 +742,7 @@ export type DeviceType =
     'action.devices.types.FAN' |
     'action.devices.types.SECURITYSYSTEM' |
     'action.devices.types.CAMERA' |
+    'action.devices.types.AIRPURIFIER' |
 
     'action.devices.types.SPEAKER' |
     'action.devices.types.AUDIO_VIDEO_RECEIVER' |

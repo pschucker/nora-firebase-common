@@ -148,7 +148,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -277,6 +287,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -529,7 +540,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -607,6 +628,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -839,7 +861,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -1010,6 +1042,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -1242,7 +1275,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -1320,6 +1363,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -1552,7 +1596,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -1626,6 +1680,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -1867,7 +1922,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -1938,6 +2003,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -2173,7 +2239,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -2312,6 +2388,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -2580,7 +2657,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -2674,6 +2761,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -2906,7 +2994,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -3033,6 +3131,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -3273,7 +3372,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -3366,6 +3475,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -3598,7 +3708,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -3676,6 +3796,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -4088,7 +4209,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -4207,6 +4338,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -4457,8 +4589,23 @@ export const Schema = {
                   },
                   "required": [
                     "command",
-                    "channelCode",
-                    "channelName",
+                    "channelCode"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "command": {
+                      "type": "string",
+                      "const": "SelectChannel"
+                    },
+                    "channelNumber": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "command",
                     "channelNumber"
                   ],
                   "additionalProperties": false
@@ -4515,7 +4662,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -4614,6 +4771,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -4843,7 +5001,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -5615,6 +5783,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -5844,7 +6013,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -5954,6 +6133,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -6183,7 +6363,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -6287,6 +6477,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -6516,7 +6707,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -6697,6 +6898,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -6946,7 +7148,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -7036,6 +7248,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -7412,7 +7625,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -7494,6 +7717,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
@@ -7837,7 +8061,17 @@ export const Schema = {
               "additionalProperties": false
             },
             "asyncCommandExecution": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
             },
             "commands": {
               "type": "object",
@@ -7950,6 +8184,7 @@ export const Schema = {
             "action.devices.types.FAN",
             "action.devices.types.SECURITYSYSTEM",
             "action.devices.types.CAMERA",
+            "action.devices.types.AIRPURIFIER",
             "action.devices.types.SPEAKER",
             "action.devices.types.AUDIO_VIDEO_RECEIVER",
             "action.devices.types.REMOTECONTROL",
